@@ -7,7 +7,8 @@
   "scripts": {
     "build": "tsc",
     "pretest": "tsc",
-    "test": "node --test dist/test"
+    "test": "node --test dist/test",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,14 @@
     "email": "miles@zim.dev",
     "url": "https://github.com/mileszim"
   },
+  "keywords": [
+    "crm",
+    "orm",
+    "salesforce",
+    "hubspot",
+    "typescript",
+    "ampersand"
+  ],
   "engines": {
     "node": ">=20.0"
   },
