@@ -2,9 +2,12 @@
   "name": "crm-orm",
   "version": "0.0.1",
   "description": "ORM for CRMs",
+  "type": "commonjs",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "pretest": "tsc",
+    "test": "node --test dist/test"
   },
   "repository": {
     "type": "git",
